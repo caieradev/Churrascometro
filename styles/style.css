@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-image: linear-gradient(to bottom , #8da8ff, #FFF);
+    background-repeat: no-repeat;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    width: 50%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-shadow: 5px 5px rgba(0, 0, 0, 30%);
+}
+
+#img-churrasco {
+    width: 100%;
+}
+
+#right {
+    width: 50%;
+    max-width: 350px;
+    height: 500px;
+    background-color: #8da8ff;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin-left: 3%;
+    border-radius: 15px;
+    box-shadow: 20px 30px rgba(68, 92, 171, 30%);
+}
+
+#img-churrascometro {
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+p {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+input {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: #e3e9ff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 5px auto;
+    margin-top: 10px;
+}
