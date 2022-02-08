@@ -5,6 +5,19 @@
     padding: 0px;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    flex-grow:  1;
+}
+
+main, footer{
+    flex-shrink: 0;
+}
+
 html {
     background-image: linear-gradient(to bottom , #8da8ff, #FFF);
     background-repeat: no-repeat;
@@ -15,8 +28,8 @@ main {
     width: 80%;
     margin-top: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 0px;
 }
 
 #left {
@@ -24,7 +37,6 @@ main {
     margin-right: 3%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 h1 {
@@ -69,16 +81,104 @@ p {
 input {
     text-align: center;
     font-weight: bold;
-    text-decoration: #e3e9ff;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 10px;
+    font-size: 16px;
 }
 
 button {
     padding: 10px;
     border-radius: 15px;
     width: 50%;
-    margin: 5px auto;
-    margin-top: 10px;
+    margin: 10px auto 25px;
+    background-color: #e3e9ff;
+}
+
+button:hover {
+    background-color: white;
+}
+
+#result {
+    margin: 0px auto;
+    display: none;
+}
+
+.result-block {
+    display: flex;
+    align-content: center;
+}
+
+.icon-result {
+    width: 30px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1260px){
+    h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width : 1120px){
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        height: 1100px;
+    }
+
+    main {
+        display: block;
+        width: 90%;
+    }
+    
+    #left {
+        width: 100%;
+        margin: 20px auto 30px;
+        max-width: 300px;
+    }
+
+    #right {
+        width: 100%;
+        max-width: 300px;
+        margin: 0px auto;
+        box-sizing: border-box;
+        height: 525px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .result-block p{
+        font-size: 20px;
+    }
+     button {
+         margin-bottom: 15px;
+     }
+
+     footer {
+         position:static;
+         margin-top: 100px;
+     }
 }
