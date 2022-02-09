@@ -14,51 +14,54 @@
         <main>
             
             <section id="left">
-                <h1>A Medida Certa Para o Seu Churasco!</h1>
-
-                <img id="img-churrasco" src="./img/churrasco.png" alt="">
+                <div id="container-left">
+                    <h1>A Medida Certa Para o Seu Churasco!</h1>
+                    
+                    <img id="img-churrasco" src="./img/churrasco.png" alt="">
+                </div>
             </section>
 
             <section id="right">
-
-                <img id="img-churrascometro" src="./img/Churrascometro.png" alt="">
-
-                <p>Quantidade de Adultos</p>
-                <input id="adultos" name="adultos" type="tel" placeholder="Adultos">
-
-                <p>Quantidade de Crianças</p>
-                <input id="criancas" name="criancas" type="tel" placeholder="Crianças">
-
-                <p>Duração do Churrasco</p>
-                <input id="duracao" name="duracao" type="tel" placeholder="Duração (h)">
-
-                <button onclick="Calcular()" id="calcular">Calcular</button>
-
-                <div id="result">
-
-                    <div class="result-block">
-
-                        <img class="icon-result" src="./img/carne.svg" alt="carne">
-                        <p></p>
-
+                <div id="container-right">
+                    <img id="img-churrascometro" src="./img/Churrascometro.png" alt="">
+                    
+                    <p>Quantidade de Adultos</p>
+                    <input id="adultos" name="adultos" type="tel" placeholder="Adultos">
+                    
+                    <p>Quantidade de Crianças</p>
+                    <input id="criancas" name="criancas" type="tel" placeholder="Crianças">
+                    
+                    <p>Duração do Churrasco</p>
+                    <input id="duracao" name="duracao" type="tel" placeholder="Duração (h)">
+                    
+                    <button onclick="Calcular()" id="calcular">Calcular</button>
+                    
+                    <div id="result">
+                        
+                        <div class="result-block">
+                            
+                            <img class="icon-result" src="./img/carne.svg" alt="carne">
+                            <p></p>
+                            
+                        </div>
+                        
+                        <div class="result-block">
+                            
+                            <img class="icon-result" src="./img/cerveja.svg" alt="cerveja">
+                            <p></p>
+                            
+                        </div>
+                        
+                        <div class="result-block">
+                            
+                            <img class="icon-result" src="./img/refri.svg" alt="bebida">
+                            <p></p>
+                            
+                        </div>
+                        
                     </div>
-
-                    <div class="result-block">
-
-                        <img class="icon-result" src="./img/cerveja.svg" alt="cerveja">
-                        <p></p>
-
-                    </div>
-
-                    <div class="result-block">
-
-                        <img class="icon-result" src="./img/refri.svg" alt="bebida">
-                        <p></p>
-
-                    </div>
-
+                    
                 </div>
-
             </section>
 
         </main>
