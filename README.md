@@ -19,7 +19,10 @@
 
 <p align="center">
   <img style="width: 500px;" alt="mockup" src="https://github.com/caieradev/Churrascometro/blob/main/assets/mockup.png" width="100%">
+  <br><br>
+  <a href="https://caieradev.github.io/Churrascometro/">Confira a demo clicando aqui!</a>
 </p>
+<hl>
 
 <p align="center">
   <a href="#clipboard-sobre-o-projeto">Sobre o Projeto</a>
