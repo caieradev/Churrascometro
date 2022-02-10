@@ -1,3 +1,4 @@
+*Caso esteja no GitHub, favor utilizar o modo dark, para experiencia completa.<br>
 <p align="center">
   <img alt="Logo Churrascômetro" src="https://github.com/caieradev/Churrascometro/blob/main/assets/Churrascometro.png"/>
   <br><br>
