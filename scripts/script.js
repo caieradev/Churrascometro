@@ -22,3 +22,16 @@ function Calcular(){
 function CarnePP(duracao){
     return duracao > 5 ? 0.65 : 0.45
 }
+
+function OnlyNumber(e){
+    let evento = e || window.event
+    let key = evento.keyCode || evento.witch
+    key = String.fromCharCode( key )
+    let regex = /^[0-9.]+$/
+
+    if(!regex.test(key)){
+        evento.returnValue = false 
+        if(evento.preventDefault)
+            evento.preventDefault()
+    }
+}

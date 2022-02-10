@@ -26,13 +26,13 @@
                     <img id="img-churrascometro" src="./assets/Churrascometro.png" alt="">
                     
                     <p>Quantidade de Adultos</p>
-                    <input id="adultos" name="adultos" type="tel" placeholder="Adultos">
+                    <input id="adultos" name="adultos" type="tel" placeholder="Adultos" onkeypress="return OnlyNumber()">
                     
                     <p>Quantidade de Crianças</p>
-                    <input id="criancas" name="criancas" type="tel" placeholder="Crianças">
+                    <input id="criancas" name="criancas" type="tel" placeholder="Crianças" onkeypress="return OnlyNumber()">
                     
                     <p>Duração do Churrasco</p>
-                    <input id="duracao" name="duracao" type="tel" placeholder="Duração (h)">
+                    <input id="duracao" name="duracao" type="tel" placeholder="Duração (h)" onkeypress="return OnlyNumber()">
                     
                     <button onclick="Calcular()" id="calcular">Calcular</button>
                     
